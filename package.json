@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./tests/first_test.js"
+    "test": "testcafe chrome ./tests/first_test.js --reporter allure-custom"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "allure-commandline": "^2.27.0",
-    "testcafe": "^3.5.0"
+    "testcafe": "^3.5.0",
+    "testcafe-reporter-allure-custom": "^1.1.5"
   }
 }
