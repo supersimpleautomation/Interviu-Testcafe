@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe"
+    "test": "testcafe chrome ./tests/first_test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "allure-commandline": "^2.27.0",
     "testcafe": "^3.5.0"
   }
 }
